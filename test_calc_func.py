@@ -29,10 +29,12 @@ def test_divide():
     value = divide(NUMBER_1, NUMBER_2)
     assert value == 1.5
 
+
 def test_divide_by_zero():
     with pytest.raises(ZeroDivisionError) as e:
         divide(NUMBER_1, 0)
     assert "division by zero" in str(e.value)
+
 
 @pytest.mark.parametrize("a,b,expected", [
     (NUMBER_1, NUMBER_2, NUMBER_1),
