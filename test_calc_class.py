@@ -1,3 +1,6 @@
+"""
+Pytest calculator class
+"""
 import pytest
 from calc_class import Calculator
 

@@ -1,12 +1,14 @@
+
 from calc_func import *
 
 
 class Calculator(object):
+    """Calculator class """
     def __init__(self):
         self._last_answer = 0.0
 
-    @property
-    def last_answer(self):
+    @property 
+    def last_answer(self): 
         return self._last_answer
 
     def _do_math(self, a, b, func):

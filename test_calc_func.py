@@ -1,3 +1,6 @@
+"""
+Pytest calculator function
+"""
 import pytest
 from calc_func import *
 
